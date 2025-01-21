@@ -1,0 +1,26 @@
+ID_Piva,Nazev,Typ,Obsah_Alkoholu,ID_Vyrobce
+1,Pilsner,Ležák,4.4,1
+2,Staropramen,Ležák,5.0,2
+3,Starobrno Medium,Ležák,4.7,3
+4,Ostravar Premium,Ležák,5.1,4
+5,Svijanský Rytíø,Ležák,5.0,5
+6,Velkopopovický Kozel,Ležák,4.8,6
+7,Gambrinus Premium,Ležák,4.5,7
+8,Brnìnský ležák,Ležák,5.0,8
+9,Ostravar Premium,Ležák,5.2,9
+10,Svijanský Máz,Ležák,5.1,10
+11,Berliner Weisse,Pšenièné,3.0,11
+12,Hofbräu Original,Ležák,5.1,12
+13,Gaffel Kölsch,Kolsch,4.8,13
+14,Cantillon Gueuze,Lambic,5.0,14
+15,De Koninck,Amber Ale,5.2,15
+16,Gruut Blonde,Blonde Ale,5.5,16
+17,Brooklyn Lager,Ležák,5.2,17
+18,312 Urban Wheat Ale,Pšenièné,4.2,18
+19,Angel City IPA,IPA,6.1,19
+20,Sapporo Premium,Ležák,5.0,20
+21,Asahi Super Dry,Ležák,5.0,21
+22,Kirin Ichiban,Ležák,5.0,22
+23,Quilmes Cristal,Ležák,4.9,23
+24,Patagonia Amber Lager,Ležák,5.5,24
+25,Andes Roja,Èervené,6.0,25

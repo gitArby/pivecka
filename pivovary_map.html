@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cce00bc9175677f62fdf74e17e1d0329 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cce00bc9175677f62fdf74e17e1d0329" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cce00bc9175677f62fdf74e17e1d0329 = L.map(
+                "map_cce00bc9175677f62fdf74e17e1d0329",
+                {
+                    center: [50.0755, 14.4378],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_167040abee2621cb29f925553bfd63eb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_167040abee2621cb29f925553bfd63eb.addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+            var marker_d4493f56a8f519bde194418b26d98c85 = L.marker(
+                [49.7384, 13.3736],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_d461a70769c3fc737575848dd0a82783 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d87a03c7f370229a1c00d78c56ef66ae = $(`<div id="html_d87a03c7f370229a1c00d78c56ef66ae" style="width: 100.0%; height: 100.0%;">Pilsner Urquell (Plzeň)</div>`)[0];
+                popup_d461a70769c3fc737575848dd0a82783.setContent(html_d87a03c7f370229a1c00d78c56ef66ae);
+            
+        
+
+        marker_d4493f56a8f519bde194418b26d98c85.bindPopup(popup_d461a70769c3fc737575848dd0a82783)
+        ;
+
+        
+    
+    
+            marker_d4493f56a8f519bde194418b26d98c85.bindTooltip(
+                `<div>
+                     Pilsner Urquell
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9df91c64dbb133e7b08fbd609aa423f1 = L.marker(
+                [50.0755, 14.4378],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_e7559ff6e7cf19207baeb4773807fcf7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6341495a93d1ce2a1ef080110495c04c = $(`<div id="html_6341495a93d1ce2a1ef080110495c04c" style="width: 100.0%; height: 100.0%;">Staropramen (Praha)</div>`)[0];
+                popup_e7559ff6e7cf19207baeb4773807fcf7.setContent(html_6341495a93d1ce2a1ef080110495c04c);
+            
+        
+
+        marker_9df91c64dbb133e7b08fbd609aa423f1.bindPopup(popup_e7559ff6e7cf19207baeb4773807fcf7)
+        ;
+
+        
+    
+    
+            marker_9df91c64dbb133e7b08fbd609aa423f1.bindTooltip(
+                `<div>
+                     Staropramen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3e79d941692239eee67393d999d78dba = L.marker(
+                [49.1951, 16.6068],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_83535b718f0bb21da7998f921a09bf34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d106a9cb17076215a70797c4ca38c2c = $(`<div id="html_3d106a9cb17076215a70797c4ca38c2c" style="width: 100.0%; height: 100.0%;">Starobrno (Brno)</div>`)[0];
+                popup_83535b718f0bb21da7998f921a09bf34.setContent(html_3d106a9cb17076215a70797c4ca38c2c);
+            
+        
+
+        marker_3e79d941692239eee67393d999d78dba.bindPopup(popup_83535b718f0bb21da7998f921a09bf34)
+        ;
+
+        
+    
+    
+            marker_3e79d941692239eee67393d999d78dba.bindTooltip(
+                `<div>
+                     Starobrno
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_81521ecdf57d3fe90913db7153a9a2d4 = L.marker(
+                [49.834, 18.2923],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_9156a9d1343ce27af544a238e7e69cc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b428125e1cb27c016d0c0a916a4e1208 = $(`<div id="html_b428125e1cb27c016d0c0a916a4e1208" style="width: 100.0%; height: 100.0%;">Ostravar (Ostrava)</div>`)[0];
+                popup_9156a9d1343ce27af544a238e7e69cc3.setContent(html_b428125e1cb27c016d0c0a916a4e1208);
+            
+        
+
+        marker_81521ecdf57d3fe90913db7153a9a2d4.bindPopup(popup_9156a9d1343ce27af544a238e7e69cc3)
+        ;
+
+        
+    
+    
+            marker_81521ecdf57d3fe90913db7153a9a2d4.bindTooltip(
+                `<div>
+                     Ostravar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_54ef462b152da27643cceda5e949de77 = L.marker(
+                [50.7671, 15.0562],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_a8047b8633e0ff2bb3dfe36a6346ab02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd970a73d1c641252cb43978bab6abc0 = $(`<div id="html_dd970a73d1c641252cb43978bab6abc0" style="width: 100.0%; height: 100.0%;">Svijany (Liberec)</div>`)[0];
+                popup_a8047b8633e0ff2bb3dfe36a6346ab02.setContent(html_dd970a73d1c641252cb43978bab6abc0);
+            
+        
+
+        marker_54ef462b152da27643cceda5e949de77.bindPopup(popup_a8047b8633e0ff2bb3dfe36a6346ab02)
+        ;
+
+        
+    
+    
+            marker_54ef462b152da27643cceda5e949de77.bindTooltip(
+                `<div>
+                     Svijany
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5b499c48f9038cdeee01a1586175fcbd = L.marker(
+                [52.52, 13.405],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_df8e3db0950c63a92210a6066f94996b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a07993eba0b6b51481fe04c3dd66c8ae = $(`<div id="html_a07993eba0b6b51481fe04c3dd66c8ae" style="width: 100.0%; height: 100.0%;">Berliner Kindl (Berlín)</div>`)[0];
+                popup_df8e3db0950c63a92210a6066f94996b.setContent(html_a07993eba0b6b51481fe04c3dd66c8ae);
+            
+        
+
+        marker_5b499c48f9038cdeee01a1586175fcbd.bindPopup(popup_df8e3db0950c63a92210a6066f94996b)
+        ;
+
+        
+    
+    
+            marker_5b499c48f9038cdeee01a1586175fcbd.bindTooltip(
+                `<div>
+                     Berliner Kindl
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_936df4cbeeed6597b282419c2732179b = L.marker(
+                [48.1351, 11.582],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_a4f9bdd0376b8ebe610124e8fb4b7661 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d3c102f68ada22a7d99a7def76a91e6 = $(`<div id="html_8d3c102f68ada22a7d99a7def76a91e6" style="width: 100.0%; height: 100.0%;">Hofbräu München (Mnichov)</div>`)[0];
+                popup_a4f9bdd0376b8ebe610124e8fb4b7661.setContent(html_8d3c102f68ada22a7d99a7def76a91e6);
+            
+        
+
+        marker_936df4cbeeed6597b282419c2732179b.bindPopup(popup_a4f9bdd0376b8ebe610124e8fb4b7661)
+        ;
+
+        
+    
+    
+            marker_936df4cbeeed6597b282419c2732179b.bindTooltip(
+                `<div>
+                     Hofbräu München
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2a51760bee89ddf022ec7da254fb6e83 = L.marker(
+                [50.9375, 6.9603],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_d684deebed27a4611089efc7a653d91a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4bbb91fe8487c6e691d28f891c8f582 = $(`<div id="html_c4bbb91fe8487c6e691d28f891c8f582" style="width: 100.0%; height: 100.0%;">Gaffel Kölsch (Kolín nad Rýnem)</div>`)[0];
+                popup_d684deebed27a4611089efc7a653d91a.setContent(html_c4bbb91fe8487c6e691d28f891c8f582);
+            
+        
+
+        marker_2a51760bee89ddf022ec7da254fb6e83.bindPopup(popup_d684deebed27a4611089efc7a653d91a)
+        ;
+
+        
+    
+    
+            marker_2a51760bee89ddf022ec7da254fb6e83.bindTooltip(
+                `<div>
+                     Gaffel Kölsch
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e4575e84ddef4b956a36d20860854643 = L.marker(
+                [50.8503, 4.3517],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_c020616c3c0a64246ac2ea6ce6ed555a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_614caa4299613b551250a54354d70593 = $(`<div id="html_614caa4299613b551250a54354d70593" style="width: 100.0%; height: 100.0%;">Brasserie Cantillon (Brusel)</div>`)[0];
+                popup_c020616c3c0a64246ac2ea6ce6ed555a.setContent(html_614caa4299613b551250a54354d70593);
+            
+        
+
+        marker_e4575e84ddef4b956a36d20860854643.bindPopup(popup_c020616c3c0a64246ac2ea6ce6ed555a)
+        ;
+
+        
+    
+    
+            marker_e4575e84ddef4b956a36d20860854643.bindTooltip(
+                `<div>
+                     Brasserie Cantillon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b607d72bd6cf4f80606ac5c3c250115b = L.marker(
+                [51.2194, 4.4025],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_c13ad5602d482a88cc59df2f8bd71c27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a50cfceb96ce42d18bf42f37e4cf6c5 = $(`<div id="html_5a50cfceb96ce42d18bf42f37e4cf6c5" style="width: 100.0%; height: 100.0%;">De Koninck (Antverpy)</div>`)[0];
+                popup_c13ad5602d482a88cc59df2f8bd71c27.setContent(html_5a50cfceb96ce42d18bf42f37e4cf6c5);
+            
+        
+
+        marker_b607d72bd6cf4f80606ac5c3c250115b.bindPopup(popup_c13ad5602d482a88cc59df2f8bd71c27)
+        ;
+
+        
+    
+    
+            marker_b607d72bd6cf4f80606ac5c3c250115b.bindTooltip(
+                `<div>
+                     De Koninck
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_985c9c54355efb14d5a087fec014f225 = L.marker(
+                [51.0543, 3.7174],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_bafbd1f11afdab31c21601a882845cc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68b9b8227a1a35d82084a3002bfbc6ff = $(`<div id="html_68b9b8227a1a35d82084a3002bfbc6ff" style="width: 100.0%; height: 100.0%;">Gruut Brewery (Gent)</div>`)[0];
+                popup_bafbd1f11afdab31c21601a882845cc6.setContent(html_68b9b8227a1a35d82084a3002bfbc6ff);
+            
+        
+
+        marker_985c9c54355efb14d5a087fec014f225.bindPopup(popup_bafbd1f11afdab31c21601a882845cc6)
+        ;
+
+        
+    
+    
+            marker_985c9c54355efb14d5a087fec014f225.bindTooltip(
+                `<div>
+                     Gruut Brewery
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_976ef4ae4adf6be5111e508dce3fb3e6 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_5a88cc4c75e6f7dca82fc4f32be9d8e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ffe041f91c4df884d9cff8f822cd418 = $(`<div id="html_1ffe041f91c4df884d9cff8f822cd418" style="width: 100.0%; height: 100.0%;">Brooklyn Brewery (New York)</div>`)[0];
+                popup_5a88cc4c75e6f7dca82fc4f32be9d8e8.setContent(html_1ffe041f91c4df884d9cff8f822cd418);
+            
+        
+
+        marker_976ef4ae4adf6be5111e508dce3fb3e6.bindPopup(popup_5a88cc4c75e6f7dca82fc4f32be9d8e8)
+        ;
+
+        
+    
+    
+            marker_976ef4ae4adf6be5111e508dce3fb3e6.bindTooltip(
+                `<div>
+                     Brooklyn Brewery
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1d2528a092909a4f2167d5e8a8331ec8 = L.marker(
+                [41.8781, -87.6298],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_2911a85ed19955b984d77a4ecb6a3e68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cee9b6e698dd10abee8d83a29c4e770 = $(`<div id="html_2cee9b6e698dd10abee8d83a29c4e770" style="width: 100.0%; height: 100.0%;">Goose Island (Chicago)</div>`)[0];
+                popup_2911a85ed19955b984d77a4ecb6a3e68.setContent(html_2cee9b6e698dd10abee8d83a29c4e770);
+            
+        
+
+        marker_1d2528a092909a4f2167d5e8a8331ec8.bindPopup(popup_2911a85ed19955b984d77a4ecb6a3e68)
+        ;
+
+        
+    
+    
+            marker_1d2528a092909a4f2167d5e8a8331ec8.bindTooltip(
+                `<div>
+                     Goose Island
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9200a52fccb8e804dbbcf9192f318aa4 = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_5563fe91ac1a05088bf1542eea113934 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4c1625c452ebce9f64ef282ff7c7c82 = $(`<div id="html_b4c1625c452ebce9f64ef282ff7c7c82" style="width: 100.0%; height: 100.0%;">Angel City Brewery (Los Angeles)</div>`)[0];
+                popup_5563fe91ac1a05088bf1542eea113934.setContent(html_b4c1625c452ebce9f64ef282ff7c7c82);
+            
+        
+
+        marker_9200a52fccb8e804dbbcf9192f318aa4.bindPopup(popup_5563fe91ac1a05088bf1542eea113934)
+        ;
+
+        
+    
+    
+            marker_9200a52fccb8e804dbbcf9192f318aa4.bindTooltip(
+                `<div>
+                     Angel City Brewery
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dc4c18b0203012c61555ca3c10df7389 = L.marker(
+                [43.0618, 141.3545],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_d99ac899df179938a655c8bb3b88da55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1fad9e769f4e346cc160486858aef0d = $(`<div id="html_e1fad9e769f4e346cc160486858aef0d" style="width: 100.0%; height: 100.0%;">Sapporo (Sapporo)</div>`)[0];
+                popup_d99ac899df179938a655c8bb3b88da55.setContent(html_e1fad9e769f4e346cc160486858aef0d);
+            
+        
+
+        marker_dc4c18b0203012c61555ca3c10df7389.bindPopup(popup_d99ac899df179938a655c8bb3b88da55)
+        ;
+
+        
+    
+    
+            marker_dc4c18b0203012c61555ca3c10df7389.bindTooltip(
+                `<div>
+                     Sapporo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_16cbab9ca4971e72e919b30f07320bb1 = L.marker(
+                [34.6937, 135.5023],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_b1bdf2127edd6208bd2d93fd176a048d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed090a996095f485a6760f23d5b5edf9 = $(`<div id="html_ed090a996095f485a6760f23d5b5edf9" style="width: 100.0%; height: 100.0%;">Asahi (Osaka)</div>`)[0];
+                popup_b1bdf2127edd6208bd2d93fd176a048d.setContent(html_ed090a996095f485a6760f23d5b5edf9);
+            
+        
+
+        marker_16cbab9ca4971e72e919b30f07320bb1.bindPopup(popup_b1bdf2127edd6208bd2d93fd176a048d)
+        ;
+
+        
+    
+    
+            marker_16cbab9ca4971e72e919b30f07320bb1.bindTooltip(
+                `<div>
+                     Asahi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_357b16088d0cf4e4b15ada620ded2e82 = L.marker(
+                [35.6895, 139.6917],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_ed1aec748c4f973e5fbd0bca5c21e4b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52a23eb4fbe167c10324f845f8fd4504 = $(`<div id="html_52a23eb4fbe167c10324f845f8fd4504" style="width: 100.0%; height: 100.0%;">Kirin (Tokio)</div>`)[0];
+                popup_ed1aec748c4f973e5fbd0bca5c21e4b9.setContent(html_52a23eb4fbe167c10324f845f8fd4504);
+            
+        
+
+        marker_357b16088d0cf4e4b15ada620ded2e82.bindPopup(popup_ed1aec748c4f973e5fbd0bca5c21e4b9)
+        ;
+
+        
+    
+    
+            marker_357b16088d0cf4e4b15ada620ded2e82.bindTooltip(
+                `<div>
+                     Kirin
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e56d4048fe0c9dbfb099e799d7d59876 = L.marker(
+                [-34.6037, -58.3816],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_0626eafdfeb1011e84578312ea0e2ccb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f01e40b2c8c60a610f45b7a8107b890 = $(`<div id="html_2f01e40b2c8c60a610f45b7a8107b890" style="width: 100.0%; height: 100.0%;">Quilmes (Buenos Aires)</div>`)[0];
+                popup_0626eafdfeb1011e84578312ea0e2ccb.setContent(html_2f01e40b2c8c60a610f45b7a8107b890);
+            
+        
+
+        marker_e56d4048fe0c9dbfb099e799d7d59876.bindPopup(popup_0626eafdfeb1011e84578312ea0e2ccb)
+        ;
+
+        
+    
+    
+            marker_e56d4048fe0c9dbfb099e799d7d59876.bindTooltip(
+                `<div>
+                     Quilmes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b6843e38e27e7a5d6933492bda3b2d89 = L.marker(
+                [-31.4201, -64.1888],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_6d84e50133bd0478e9af764f503531ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd93df592e2b9d184109cf4596680000 = $(`<div id="html_cd93df592e2b9d184109cf4596680000" style="width: 100.0%; height: 100.0%;">Patagonia (Córdoba)</div>`)[0];
+                popup_6d84e50133bd0478e9af764f503531ad.setContent(html_cd93df592e2b9d184109cf4596680000);
+            
+        
+
+        marker_b6843e38e27e7a5d6933492bda3b2d89.bindPopup(popup_6d84e50133bd0478e9af764f503531ad)
+        ;
+
+        
+    
+    
+            marker_b6843e38e27e7a5d6933492bda3b2d89.bindTooltip(
+                `<div>
+                     Patagonia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96ed75d58493fa90625fb8d412f75113 = L.marker(
+                [-32.8908, -68.8272],
+                {
+}
+            ).addTo(map_cce00bc9175677f62fdf74e17e1d0329);
+        
+    
+        var popup_0a1316397e8a49f767735f7b907610d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51d3ddb3d02be48b383c89b9f6397b9b = $(`<div id="html_51d3ddb3d02be48b383c89b9f6397b9b" style="width: 100.0%; height: 100.0%;">Andes (Mendoza)</div>`)[0];
+                popup_0a1316397e8a49f767735f7b907610d1.setContent(html_51d3ddb3d02be48b383c89b9f6397b9b);
+            
+        
+
+        marker_96ed75d58493fa90625fb8d412f75113.bindPopup(popup_0a1316397e8a49f767735f7b907610d1)
+        ;
+
+        
+    
+    
+            marker_96ed75d58493fa90625fb8d412f75113.bindTooltip(
+                `<div>
+                     Andes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
