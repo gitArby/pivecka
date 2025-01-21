@@ -18,7 +18,9 @@ Projekt využívá následující tabulky:
 2. **Vyrobce** - Obsahuje informace o výrobcích piva (název, rok založení, ID města).
 3. **Mesto** - Obsahuje informace o městech, kde se piva vyrábí (název, GPS souřadnice, země).
 4. **Zeme** - Obsahuje seznam zemí, ze kterých piva pocházejí
-##Autoři
-##Arby Adam Macků
-##Novirok Zdenda Vapenda
-##dn Ondra Kvapil
+
+## Autoři
+
+## Arby Adam Macků
+## Novirok Zdenda Vapenda
+## dn Ondra Kvapil
